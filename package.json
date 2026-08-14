@@ -1,5 +1,5 @@
 {
-  "name": "mtls-universal-proxy",
+  "name": "@mrcerise/mtls-universal-proxy",
   "version": "1.0.0",
   "description": "Zero-trust mTLS forward proxy server and client SDK for Node.js",
   "main": "./lib/index.js",
