@@ -6,7 +6,7 @@
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/votre-nom-github/mtls-universal-proxy.git"
+    "url": "git+https://github.com/MrCerise/mtls-universal-proxy.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
