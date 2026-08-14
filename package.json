@@ -1,0 +1,36 @@
+{
+  "name": "mtls-universal-proxy",
+  "version": "1.0.0",
+  "description": "Zero-trust mTLS forward proxy server and client SDK for Node.js",
+  "main": "./lib/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib/",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node examples/client.js"
+  },
+  "keywords": [
+    "mtls",
+    "proxy",
+    "tls",
+    "security",
+    "zero-trust",
+    "forward-proxy",
+    "https-proxy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
