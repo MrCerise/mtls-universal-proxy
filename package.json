@@ -4,6 +4,13 @@
   "description": "Zero-trust mTLS forward proxy server and client SDK for Node.js",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/votre-nom-github/mtls-universal-proxy.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
   "exports": {
     ".": {
       "types": "./index.d.ts",
@@ -17,9 +24,6 @@
     "README.md",
     "LICENSE"
   ],
-  "scripts": {
-    "test": "node examples/client.js"
-  },
   "keywords": [
     "mtls",
     "proxy",
