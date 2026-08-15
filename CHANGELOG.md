@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.1...v1.0.2) (2026-08-15)
+
+
+### Bug Fixes
+
+* Refactor MtlsProxyClient for improved readability ([ffb9c25](https://github.com/mrcerise/mtls-universal-proxy/commit/ffb9c2509b52fe0b62475173ab6d57ba7d485882))
+
 ## [1.0.1](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.0...v1.0.1) (2026-08-15)
 
 
