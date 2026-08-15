@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.0...v1.0.1) (2026-08-15)
+
+
+### Bug Fixes
+
+* wrong version ([a0ec987](https://github.com/mrcerise/mtls-universal-proxy/commit/a0ec9871644cfa4b525a69031c4e076bd93c700c))
+
 # 1.0.0 (2026-08-15)
 
 
