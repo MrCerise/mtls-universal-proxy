@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.3...v1.0.4) (2026-08-15)
+
+
+### Bug Fixes
+
+* Refactor MtlsProxyServer class structure ([8e5dc45](https://github.com/mrcerise/mtls-universal-proxy/commit/8e5dc457c2f1eda4ede1fb33e3939874457c918f))
+
 ## [1.0.3](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.2...v1.0.3) (2026-08-15)
 
 
