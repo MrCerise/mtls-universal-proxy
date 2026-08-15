@@ -1,6 +1,6 @@
 {
   "name": "mtls-universal-proxy",
-  "version": "1.0.7",
+  "version": "1.0.2",
   "description": "Zero-trust mTLS forward proxy server and client SDK for Node.js",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrCerise/mtls-universal-proxy.git"
+    "url": "git+https://github.com/mrcerise/mtls-universal-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/MrCerise/mtls-universal-proxy/issues"
+    "url": "https://github.com/mrcerise/mtls-universal-proxy/issues"
   },
-  "homepage": "https://github.com/MrCerise/mtls-universal-proxy#readme",
+  "homepage": "https://github.com/mrcerise/mtls-universal-proxy#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -41,5 +41,14 @@
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.9",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
+    "semantic-release": "^25.0.9"
   }
 }
