@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrcerise/mtls-universal-proxy.git"
+    "url": "git+https://github.com/MrCerise/mtls-universal-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/mrcerise/mtls-universal-proxy/issues"
+    "url": "https://github.com/MrCerise/mtls-universal-proxy/issues"
   },
-  "homepage": "https://github.com/mrcerise/mtls-universal-proxy#readme",
+  "homepage": "https://github.com/MrCerise/mtls-universal-proxy#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
