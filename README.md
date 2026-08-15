@@ -3,7 +3,7 @@
 > Zero-trust Mutual TLS (mTLS) forward proxy server and promise-based client SDK for Node.js with **zero external dependencies**.
 
 [![npm version](https://img.shields.io/npm/v/mtls-universal-proxy.svg)](https://www.npmjs.com/package/mtls-universal-proxy)
-[![license](https://img.shields.io/npm/l/mtls-universal-proxy.svg)](LICENSE)
+[![license](https://img.shields.io/npm/l/mtls-universal-proxy.svg?v=1.0.10)](LICENSE)
 
 `mtls-universal-proxy` makes it seamless to route HTTP/HTTPS traffic through a secure, encrypted mTLS tunnel. It provides both a robust proxy server that authenticates incoming client certificates and forwards requests to target URLs, and a lightweight, promise-based HTTP client SDK.
 
