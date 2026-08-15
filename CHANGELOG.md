@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.6...v1.0.7) (2026-08-15)
+
+
+### Bug Fixes
+
+* added package-lock.json ([6927ebb](https://github.com/MrCerise/mtls-universal-proxy/commit/6927ebb890a8933b43de6b9b4fcb8b38ec804c1b))
+* Refactor MtlsProxyClient for improved readability ([55165d8](https://github.com/MrCerise/mtls-universal-proxy/commit/55165d8765da8d6c3e72403f5a898d3d8288b67c))
+
 ## [1.0.6](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.5...v1.0.6) (2026-08-15)
 
 
