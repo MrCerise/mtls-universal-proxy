@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.8...v1.0.9) (2026-08-15)
+
+
+### Bug Fixes
+
+* repository URL casing in package.json ([6999690](https://github.com/MrCerise/mtls-universal-proxy/commit/6999690d107403925c41a0823aed551f95f2ea01))
+
 ## [1.0.8](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.7...v1.0.8) (2026-08-15)
 
 
