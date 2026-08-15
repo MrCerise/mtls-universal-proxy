@@ -1,3 +1,12 @@
+## [1.0.8](https://github.com/mrcerise/mtls-universal-proxy/compare/v1.0.7...v1.0.8) (2026-08-15)
+
+
+### Bug Fixes
+
+* added semantic ([0b9adb8](https://github.com/mrcerise/mtls-universal-proxy/commit/0b9adb87e46b9aeeed5474f191692d4dca70d7ae))
+* Enable npm publishing in release configuration ([f607376](https://github.com/mrcerise/mtls-universal-proxy/commit/f6073768c09182fed614d3dcfa5fc75342cb7cc8))
+* Refactor GitHub Actions workflow for release process ([21102e8](https://github.com/mrcerise/mtls-universal-proxy/commit/21102e8b069474ffadb2c869fd700bb2dafd9419))
+
 ## [1.0.7](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.6...v1.0.7) (2026-08-15)
 
 
