@@ -1,20 +1,23 @@
-name: Publish Package to npmjs
+name: Automated Release & Publish
 
 on:
-  release:
-    types: [published] # Triggers when you create a GitHub Release
-  workflow_dispatch:     # Allows manual trigger from GitHub Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  id-token: write
 
 jobs:
-  publish:
+  release-and-publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write # REQUIRED for npm OIDC Trusted Publishing authentication
-
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -22,9 +25,19 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Publish to npm
-        # No NODE_AUTH_TOKEN needed! npm automatically detects OIDC token in CI
+      - name: Create Release & Bump Version
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v4
+        with:
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/changelog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Publish to npmjs
+        if: steps.semantic.outputs.new_release_published == 'true'
         run: npm publish --provenance
