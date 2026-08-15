@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.5...v1.0.6) (2026-08-15)
+
+
+### Bug Fixes
+
+* Update Node.js version and modify release steps ([efee366](https://github.com/MrCerise/mtls-universal-proxy/commit/efee366141a682f215b96b16a163699165b1c8e1))
+
 ## [1.0.5](https://github.com/MrCerise/mtls-universal-proxy/compare/v1.0.4...v1.0.5) (2026-08-15)
 
 
