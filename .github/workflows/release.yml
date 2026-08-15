@@ -12,6 +12,7 @@ permissions:
 jobs:
   release-and-publish:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -22,13 +23,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Create Release & Bump Version
+      - name: Create Release & Publish
         id: semantic
         uses: cycjimmy/semantic-release-action@v4
         with:
@@ -37,7 +41,3 @@ jobs:
             @semantic-release/changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Publish to npmjs
-        if: steps.semantic.outputs.new_release_published == 'true'
-        run: npm publish --provenance
